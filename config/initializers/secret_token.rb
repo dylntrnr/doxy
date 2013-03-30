@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Doxy::Application.config.secret_token = '1ba2642877b8fe9ebdb3ea6a52810620523a3e0943f64a34398e23080ef52d5f0687529c1b2442613b28ac2af8b90ce566db47f5f9412fbf3dc43771d7bd224e'
+SampleApp::Application.config.secret_token = '88b0746990f7e28451fc8bd251856befc6b53753ee232b8d76840c7a884e27bc423665f772adb923905b5413909225058fb3ec5653fd4b7466723057bc3a04f8'

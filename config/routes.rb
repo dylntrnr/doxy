@@ -1,8 +1,11 @@
-Doxy::Application.routes.draw do
-  root :to => 'Tasks#index'
-  get "tasks/index"
+SampleApp::Application.routes.draw do
+  root to: 'static_pages#home'
 
-  resources :tasks
+  match '/help', to: 'static_pages#help'
+
+  match '/about', to: 'static_pages#about'
+
+  match '/contact', to: 'static_pages#contact'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -19,11 +22,11 @@ Doxy::Application.routes.draw do
   #   resources :products
 
   # Sample resource route with options:
-    # resources :products do
-    #   member do
-    #     get 'short'
-    #     post 'toggle'
-    #   end
+  #   resources :products do
+  #     member do
+  #       get 'short'
+  #       post 'toggle'
+  #     end
   #
   #     collection do
   #       get 'sold'

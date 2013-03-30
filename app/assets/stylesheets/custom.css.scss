@@ -24,6 +24,57 @@ textarea {
 
 .center h1 {
   margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+/* ads */
+.ads {
+  background-color: gray;
+  float: left;
+  height: 440px;
+  margin-right: 20px;
+  width: 120px;
+}
+
+/* tokbox */
+.tokbox {
+  background-color: gray;
+  float: left;
+  height: 440px;
+  margin-bottom: 20px;
+  width: 520px;
+}
+
+/* meeting info */
+.info {
+  background-color: gray;
+  float: left;
+  height: 100px;
+  margin-top: -460px;
+  margin-left: 680px;
+  width: 120px;
+}
+
+/* participants */
+.participants {
+  background-color: gray;
+  float: left;
+  height: 200px;
+  margin-left: 680px;
+  margin-right: 20px;
+  margin-top: -340px;
+  width: 120px;
+}
+
+/* chat */
+.chat {
+  background-color: gray;
+  float: left;
+  height: 100px;
+  margin-left: 680px;
+  margin-right: 20px;
+  margin-top: -120px;
+  width: 120px;
 }
 
 /* typography */

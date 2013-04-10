@@ -27,9 +27,12 @@ textarea {
   margin-top: -40px;
 }
 
+.hero-unit {
+  height: 550px;
+}
+
 /* ads */
 .ads {
-  background-color: gray;
   float: left;
   height: 440px;
   margin-right: 20px;
@@ -45,9 +48,17 @@ textarea {
   width: 520px;
 }
 
+.pat_tokbox {
+  background-color: gray;
+  float: left;
+  height: 440px;
+  margin-bottom: 20px;
+  width: 640px;
+}
+
 /* meeting info */
 .info {
-  background-color: gray;
+  border: 1px solid black;
   float: left;
   height: 100px;
   margin-top: -460px;
@@ -55,9 +66,18 @@ textarea {
   width: 120px;
 }
 
+.meeting_info {
+  border: 1px solid black;
+  float: left;
+  height: 100px;
+  margin-top: -460px;
+  margin-left: 680px;
+  width: 140px;
+}
+
 /* participants */
 .participants {
-  background-color: gray;
+  border: 1px solid black;
   float: left;
   height: 200px;
   margin-left: 680px;
@@ -68,13 +88,23 @@ textarea {
 
 /* chat */
 .chat {
-  background-color: gray;
+  border: 1px solid black;
   float: left;
   height: 100px;
   margin-left: 680px;
   margin-right: 20px;
   margin-top: -120px;
   width: 120px;
+}
+
+.pat_chat {
+  border: 1px solid black;
+  float: left;
+  height: 300px;
+  margin-left: 680px;
+  margin-right: 20px;
+  margin-top: -320px;
+  width: 140px;
 }
 
 /* typography */

@@ -10,4 +10,10 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
+
+  def patient
+  end
+
+  def clinician
+  end
 end

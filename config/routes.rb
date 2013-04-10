@@ -7,6 +7,10 @@ SampleApp::Application.routes.draw do
 
   match '/contact', to: 'static_pages#contact'
 
+  match '/patient', to: 'static_pages#patient'
+
+  match '/clinician', to: 'statis_pages#clinician'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

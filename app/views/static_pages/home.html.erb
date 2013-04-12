@@ -3,22 +3,23 @@
 
 	<h2>The simple, free, secure way for your doc to see you.</h2>
 
-<div class="ads">
-	<%= image_tag "lipitor_ad.png" %>
-	<%= image_tag "ativan_ad.png" %>
-	<%= image_tag "bc_ad.png", :class => "style_image" %>
-</div>
-<div class="tokbox">
-	<!-- Tokbox code goes here -->
-	<iframe class="f2f" src="https://apprtc.appspot.com/?r=03029823">
-    <p>AppRTC Widget</p>
-</iframe>
-</div>
 
-<div class="clin_right_bar">
-	<div class="info">Session Info</div>
-	<div class="participants">Participants</div>
-	<div class="chat">Chat</div>
+
+<div class="row">
+	<div class="span2">
+		<%= image_tag "lipitor_ad.png" %>
+		<%= image_tag "ativan_ad.png" %>
+		<%= image_tag "bc_ad.png", :class => "style_image" %>
+	</div>
+	
+	<div class="span6">
+		<!-- Tokbox code goes here -->
+		<iframe class="f2f" src="https://apprtc.appspot.com/?r=03029823">
+	    <p>AppRTC Widget</p>
+		</iframe>
+	</div>
+	
+	<div class="span1"><iframe class="c2c" src="http://cdn.peerjs.com/demo/chat-old.html" frameborder="0"></iframe></div>
 </div>
 
   <%= link_to "Sign up for updates!", '#', class: "btn btn-large btn-primary" %>
